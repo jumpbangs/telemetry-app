@@ -1,0 +1,30 @@
+line-length = 120
+
+[lint]
+
+select = ["A", "E", "F", "I", "DJ", "INP", "TID", "UP", "YTT"]
+fixable = ["ALL"]
+exclude = [
+    ".bzr", 
+    ".direnv", 
+    ".eggs", 
+    ".git", 
+    ".github", 
+    ".hg", 
+    ".ruff_cache",
+    ".svn", 
+    ".tox", 
+    ".venv", 
+    "__pypackages__", 
+    "_build", 
+    "build", 
+    "dist",
+    "migrations", 
+    "node_modules", 
+    "static", 
+    "backend_env"
+]
+
+[format]
+skip-magic-trailing-comma = false
+line-ending = "auto"
