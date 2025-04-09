@@ -13,3 +13,5 @@ repos:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix, --show-fixes]
       - id: ruff-format
+
+exclude: ^backend/backend_env/
